@@ -1,0 +1,24 @@
+## Terminal Color Theme
+details: 'darker'
+foreground: '#E1E1E1'
+background: '#040211'
+accent: '#4422DD'
+terminal_colors:
+  normal:
+    black: '#010101'
+    white: '#F1F1F1'
+    red: '#E13141'
+    yellow: '#E1C131'
+    green: '#31E141'
+    cyan: '#31A1E1'
+    blue: '#3141E1'
+    magenta: '#7131E1'
+  bright:
+    black: '#111111'
+    white: '#FFFFFF'
+    red: '#F15171'
+    yellow: '#F1E151'
+    green: '#51F171'
+    cyan: '#51E1F1'
+    blue: '#5171F1'
+    magenta: '#9151F1'
