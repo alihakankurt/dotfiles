@@ -7,7 +7,7 @@ add_newline = true
 command_timeout = 1000
 
 ## The prompt format
-format = """$os$username$directory$git_branch$git_status$cmd_duration$status\n$character"""
+format = """$os$username$directory$git_branch$git_status$time$cmd_duration$status\n$character"""
 
 [os.symbols]
 Macos = ''
@@ -28,8 +28,8 @@ format = ' [$user]($style)'
 truncation_length = 3
 truncation_symbol = '../'
 truncate_to_repo = true
-format = ' at [$path]($style) [$read_only]($read_only_style)'
-style = 'bold purple'
+format = ' at [$read_only]($read_only_style)[$path]($style)' 
+style = 'bold bright-blue'
 read_only = ''
 read_only_style = 'bold red'
 home_symbol = '~'
@@ -37,7 +37,7 @@ home_symbol = '~'
 [git_branch]
 symbol = ' '
 style = 'bold yellow'
-format = 'via [$symbol$branch(:$remote_branch)]($style)'
+format = ' via [$symbol$branch(:$remote_branch)]($style)'
 
 [git_status]
 style = 'bright-yellow'
@@ -54,10 +54,15 @@ staged = '[++\($count\)](green)'
 renamed = '襁 '
 deleted = ' '
 
+[time]
+disabled = false
+style = ' bright-green'
+format = ' [󰥔 $time]($style)'
+
 [cmd_duration]
 min_time = 0
 style = 'bright-green'
-format = ' [󰥔 $duration]($style)'
+format = ' | [$duration]($style)'
 
 [status]
 disabled = false
