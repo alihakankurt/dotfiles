@@ -37,7 +37,7 @@ home_symbol = '~'
 [git_branch]
 symbol = ' '
 style = 'bold yellow'
-format = ' via [$symbol$branch(:$remote_branch)]($style)'
+format = ' on [$symbol$branch(:$remote_branch)]($style)'
 
 [git_status]
 style = 'bright-yellow'
