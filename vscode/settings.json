@@ -1,0 +1,74 @@
+{
+    "workbench.colorTheme": "Rosé Pine (no italics)",
+    "workbench.iconTheme": "symbols",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.activityBar.location": "top",
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 12,
+
+    "breadcrumbs.enabled": false,
+
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+
+    "editor.fontFamily": "'Cascadia Code NF'",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.indentSize": 4,
+    "editor.detectIndentation": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.showFoldingControls": "never",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.overviewRulerBorder": false,
+
+    "files.autoSave": "onFocusChange",
+    "files.associations": {
+        "*.h": "c",
+        ".clang-format": "yaml"
+    },
+
+    "terminal.integrated.fontFamily": "'Cascadia Code NF'",
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.hideOnStartup": "always",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+
+    "extensions.ignoreRecommendations": true,
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false,
+
+    "workbench.colorCustomizations": {
+        "[Rosé Pine (no italics)]": {
+            "editorLineNumber.foreground": "#f17191",
+            "editorLineNumber.activeForeground": "#ffa1d1",
+            "editorCursor.foreground": "#ffa1d1",
+            "sideBar.border": "#f11791"
+        }
+    },
+    "symbols.hidesExplorerArrows": true,
+
+    "dotnet.automaticallyCreateSolutionInWorkspace": false,
+    "dotnet.implementType.propertyGenerationBehavior": "preferAutoProperties",
+
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.clang_format_fallbackStyle": "LLVM"
+}
+

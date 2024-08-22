@@ -1,12 +1,7 @@
-## Starship Prompt Configuration
+## Starship Prompt Configuration ##
 
-## Insert new line between prompts
 add_newline = true
-
-## Timeout for commands executed by Starship in milliseconds
 command_timeout = 1000
-
-## The prompt format
 format = """$os$username$directory$git_branch$git_status$time$cmd_duration$status\n$character"""
 
 [os.symbols]
@@ -15,7 +10,7 @@ Windows = ''
 
 [os]
 disabled = false
-style = 'bold white'
+style = 'bold bright-white'
 format = '[$symbol]($style)'
 
 [username]
@@ -25,18 +20,18 @@ style_user = 'bold bright-cyan'
 format = ' [$user]($style)'
 
 [directory]
-truncation_length = 3
+truncation_length = 4
 truncation_symbol = '../'
 truncate_to_repo = true
 format = ' at [$read_only]($read_only_style)[$path]($style)' 
-style = 'bold bright-blue'
-read_only = ''
-read_only_style = 'bold red'
+style = 'bold bright-red'
+read_only = ' '
+read_only_style = 'bold bright-red'
 home_symbol = '~'
 
 [git_branch]
 symbol = ' '
-style = 'bold yellow'
+style = 'bold bright-yellow'
 format = ' on [$symbol$branch(:$remote_branch)]($style)'
 
 [git_status]
@@ -62,7 +57,7 @@ format = ' [󰥔 $time]($style)'
 [cmd_duration]
 min_time = 0
 style = 'bright-green'
-format = ' | [$duration]($style)'
+format = ' [|](bright-purple) [$duration]($style)'
 
 [status]
 disabled = false
@@ -77,3 +72,4 @@ disabled = true
 
 [fill]
 disabled = true
+
