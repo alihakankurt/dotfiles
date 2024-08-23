@@ -1,8 +1,12 @@
 ## Terminal Color Theme ##
 details: "darker"
 foreground: "#E1E1E1"
-background: "#020711"
-accent: "#2171F1"
+background:
+  left: "#020711"
+  right: "#030A19"
+accent:
+  left: "#1446AA"
+  right: "#1E64FA"
 terminal_colors:
   normal:
     black: "#010101"
